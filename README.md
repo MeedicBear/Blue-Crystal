@@ -3,6 +3,8 @@
 
 An interactive drug production and cooking plugin for Unturned servers running RocketMod. Players can set up cooking stations using barrels, mix required chemical ingredients, freeze the liquid trays in powered freezers, crush frozen trays into bags of Blue Crystal, and consume them for temporary movement/jump speed buffs.
 
+Original Plugin : https://github.com/OcelotDE/Blue-Crystal-Cooking-Plugin
+
 ---
 
 ## 📖 Description & Workflow
