@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Ocelot.BlueCrystalCooking</RootNamespace>
+    <AssemblyName>BlueCrystalCooking</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestoreMonarchy.RocketRedist" Version="3.*" ExcludeAssets="runtime" />
+    <PackageReference Include="RestoreMonarchy.UnturnedRedist" Version="3.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+</Project>

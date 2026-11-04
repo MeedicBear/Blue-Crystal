@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eJ/1tcmnVU0=",
+  "success": true,
+  "projectFilePath": "E:\\UnturnedPlugins\\Blue Crystal\\BlueCrystalCooking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\heath\\.nuget\\packages\\restoremonarchy.rocketredist\\3.26.3.13\\restoremonarchy.rocketredist.3.26.3.13.nupkg.sha512",
+    "C:\\Users\\heath\\.nuget\\packages\\restoremonarchy.unturnedredist\\3.26.3.13\\restoremonarchy.unturnedredist.3.26.3.13.nupkg.sha512"
+  ],
+  "logs": []
+}

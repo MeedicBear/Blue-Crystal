@@ -1,0 +1,8 @@
+E:\UnturnedPlugins\Blue Crystal\bin\Release\net48\BlueCrystalCooking.dll
+E:\UnturnedPlugins\Blue Crystal\bin\Release\net48\BlueCrystalCooking.pdb
+E:\UnturnedPlugins\Blue Crystal\obj\Release\net48\BlueCrystalCooking.csproj.AssemblyReference.cache
+E:\UnturnedPlugins\Blue Crystal\obj\Release\net48\BlueCrystalCooking.GeneratedMSBuildEditorConfig.editorconfig
+E:\UnturnedPlugins\Blue Crystal\obj\Release\net48\BlueCrystalCooking.csproj.CoreCompileInputs.cache
+E:\UnturnedPlugins\Blue Crystal\obj\Release\net48\BlueCrystalCooking.sourcelink.json
+E:\UnturnedPlugins\Blue Crystal\obj\Release\net48\BlueCrystalCooking.dll
+E:\UnturnedPlugins\Blue Crystal\obj\Release\net48\BlueCrystalCooking.pdb
