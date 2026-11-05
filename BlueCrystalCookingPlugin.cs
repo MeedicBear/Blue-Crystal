@@ -27,7 +27,6 @@ namespace Ocelot.BlueCrystalCooking
         protected override void Load()
         {
             Instance = this;
-            Logger.Log("BlueCrystalCookingPlugin v" + VERSION + " by Ocelot loaded! Enjoy! :)", ConsoleColor.Yellow);
 
             BarricadeManager.onDeployBarricadeRequested += BarricadeDeployed;
             BarricadeDrop.OnSalvageRequested_Global += OnBarricadeSalvageRequested;
@@ -42,6 +41,12 @@ namespace Ocelot.BlueCrystalCooking
             {
                 Level.onLevelLoaded += AddExistingBarrels;
             }
+
+            Logger.Log("=================================================", ConsoleColor.Cyan);
+            Logger.Log($"  {Name} v{VERSION} loaded successfully!", ConsoleColor.Green);
+            Logger.Log("  Interactive Drug Cooking & Chemical Processing", ConsoleColor.Yellow);
+            Logger.Log("  Powered by UnturnedForge: https://www.unturnedforge.com", ConsoleColor.Cyan);
+            Logger.Log("=================================================", ConsoleColor.Cyan);
         }
 
         private void OnBarricadeSalvageRequested(BarricadeDrop barricade, SteamPlayer instigatorClient, ref bool shouldAllow)
@@ -85,6 +90,11 @@ namespace Ocelot.BlueCrystalCooking
             drugeffectPlayersList.Clear();
             placedBarrelsTransformsIngredients.Clear();
             freezingTrays.Clear();
+
+            Logger.Log("=================================================", ConsoleColor.Cyan);
+            Logger.Log($"  {Name} has been unloaded!", ConsoleColor.Yellow);
+            Logger.Log("  Visit https://www.unturnedforge.com for updates!", ConsoleColor.Cyan);
+            Logger.Log("=================================================", ConsoleColor.Cyan);
         }
 
         private void ConsumeAction(Player instigatingPlayer, ItemConsumeableAsset consumeableAsset)
